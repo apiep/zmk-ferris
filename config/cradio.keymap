@@ -46,6 +46,17 @@
 			key-positions = <17 18>;
 			bindings = <&kp RGUI>;
 		};
+
+		combo_lctrl {
+			timeout-ms = <50>;
+			key-positions = <23 24>;
+			bindings = <&kp LCTRL>;
+		};
+		combo_rctrl {
+			timeout-ms = <50>;
+			key-positions = <27 28>;
+			bindings = <&kp RCTRL>;
+		};
 	};
 
 	keymap {
@@ -56,7 +67,7 @@
 				&kp Q				&kp W	&kp E	&kp R	&kp T		&kp Y	&kp U	&kp I			&kp O	&kp P
 				&mt LCTRL A	&kp S	&kp D	&kp F	&kp G		&kp H	&kp J	&kp K			&kp L	&kp QUOT
 				&mt LSFT Z 	&kp X	&kp C	&kp V	&kp B		&kp N	&kp M	&kp CMMA	&kp DOT	&mt LSFT RET
-										&lt 2 ESC	&kp TAB							&lt 4 SPC	&lt 1 BSPC
+										&lt 2 ESC	&lt 4 TAB							&lt 4 SPC	&lt 1 BSPC
 			>;
 		};
 
